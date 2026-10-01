@@ -1,8 +1,6 @@
 import { memo } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
-const controlledCiFailure = ;
-
 function ProductCard({ product, isFavorite, onToggleFavorite }) {
   return (
     <View style={styles.card} testID={`product-${product.id}`}>
